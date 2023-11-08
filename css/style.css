@@ -1,0 +1,49 @@
+/* CSS 
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.table td,
+.table th {
+    border-top: 0;
+}
+
+th {
+    background-color: rgb(112, 112, 112);
+    color: #f1f1f1;
+    border-top: 0px;
+    border: .5px solid #e2e1e1;
+}
+
+td {
+    padding: 20px;
+    /* border: .5px solid #c2c2c2; */
+    background-color: #f1f0f0;
+}
+
+.columnItens {
+    text-align: center;
+}
+
+.fa-times {
+    font-size: 13px;
+}
+
+.fa-pencil-alt {
+    font-size: 13px;
+}
+
+.btn-acao {
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    margin: 4px;
+}
+
+.hide {
+    display: none;
+}
