@@ -125,7 +125,7 @@ function cadastrarDespesa() {
     }
 }
 
-function carregaListadespesas(despesas = [], filtro = false) {
+function carregaListaDespesas(despesas = [], filtro = false) {
     //Selecionando o elemento tbady da tebela
     const listaDespesas = document.getElementById('listaDespesas')
     listaDespesas.innerHTML = ''
@@ -255,7 +255,7 @@ function salvarEdicaoDespesa() {
         document.getElementById('search').innerHTML = '<i class="fas fa-search"></i>';
         document.getElementById('search').onclick = pesquisarDespesa;
 
-        carregaListadespesas();
+        carregaListaDespesas();
 
     } else {
         exibirMensagem('Erro na Atualização dos Dados', 'Existem campos obrigatórios que não foram preenchidos', 'text-danger');
